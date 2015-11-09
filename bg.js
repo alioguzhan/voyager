@@ -6,8 +6,8 @@ $('#favButton').on('click', function(){
   var songName = $('.song-name').text();
   var songDate = new Date().toLocaleDateString();
   var song = {'name': songName, 'datePlayed': songDate}
-  console.log(song);
   var SONGS = [];
+  
   chrome.storage.local.get('songList', function(result){
     console.log(result);
     if (result) {
