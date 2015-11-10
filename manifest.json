@@ -14,6 +14,11 @@
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png"
+  },
   "permissions": [
     "unlimitedStorage",
     "storage"
